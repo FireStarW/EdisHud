@@ -22,7 +22,7 @@
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
-		"wide"			"75"
+		"wide"			"0" //75
 		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
@@ -73,7 +73,7 @@
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -91,7 +91,7 @@
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"109"
+		"wide"			"0"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
@@ -109,7 +109,7 @@
 		"xpos"			"0"	[$WIN32]
 		"ypos"			"r214"	[$WIN32]
 		"zpos"			"2"		
-		"wide"			"100"
+		"wide"			"0"
 		"tall"			"200"
 		"autoResize"	"0"
 		"pinCorner"		"0"

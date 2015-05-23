@@ -17,7 +17,14 @@ Scheme
 
 	//////////////////////// COLORS ///////////////////////////
 	Colors
-	{
+	{	
+		//custom colors
+		"MintGreen"			"195 229 186 255"
+		"DarkGreen"			"54 64 52 255"
+		"WhiteGreen"			"217 255 207 255"
+		"EdisGreen"			"108 127 103 255"
+		"LessMintGreen"			"163 191 155 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -430,11 +437,12 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -442,7 +450,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -451,7 +459,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -460,7 +468,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -469,7 +477,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -478,14 +486,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -497,7 +505,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -505,7 +513,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Arial"
+				"name"		"Ubuntu"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -515,7 +523,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -523,7 +531,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -531,7 +539,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -540,7 +548,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -549,7 +557,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -558,7 +566,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -570,7 +578,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -578,7 +586,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -586,7 +594,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -595,7 +603,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -604,7 +612,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -616,7 +624,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -624,7 +632,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -632,7 +640,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -641,7 +649,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -650,7 +658,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -659,14 +667,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Ubuntu"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -677,8 +685,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
+				"name"		"Ubuntu Condensed" 
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" "1"
@@ -690,7 +697,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -701,14 +708,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
@@ -716,21 +723,21 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1200 10000"
@@ -740,7 +747,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -750,7 +757,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -760,7 +767,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -769,7 +776,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -778,7 +785,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -790,7 +797,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -803,7 +810,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -816,7 +823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -828,7 +835,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -839,7 +846,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -850,7 +857,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -862,7 +869,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -873,7 +880,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -884,7 +891,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -895,7 +902,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -908,7 +915,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -921,7 +928,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -933,7 +940,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -944,7 +951,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -955,7 +962,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -967,7 +974,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -978,7 +985,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -990,7 +997,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1001,7 +1008,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1012,7 +1019,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1023,7 +1030,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1034,7 +1041,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1045,7 +1052,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1056,7 +1063,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1067,7 +1074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1080,7 +1087,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1123,7 +1130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1136,7 +1143,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1149,7 +1156,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1160,7 +1167,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1171,7 +1178,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -1184,7 +1191,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1196,7 +1203,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1206,7 +1213,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1217,7 +1224,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1226,7 +1233,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1235,7 +1242,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1309,7 +1316,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "Verdana"
+				"name"  "Ubuntu"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1400,7 +1407,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1410,7 +1417,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1421,7 +1428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1432,7 +1439,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -1503,7 +1510,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -1516,7 +1523,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1529,7 +1536,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1541,7 +1548,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1553,7 +1560,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1567,7 +1574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1582,7 +1589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1592,7 +1599,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1602,7 +1609,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1611,7 +1618,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1620,7 +1627,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1633,7 +1640,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1644,7 +1651,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1656,7 +1663,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1670,7 +1677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1678,7 +1685,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1686,7 +1693,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1694,7 +1701,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1702,7 +1709,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1713,7 +1720,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1721,7 +1728,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1729,7 +1736,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1737,7 +1744,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1745,7 +1752,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -1756,7 +1763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -1764,7 +1771,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -1772,7 +1779,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -1780,7 +1787,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -1788,19 +1795,45 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
 		}
-
+		
+				// begin custom fonts def
+		
+		AmmoLabelFont
+		{
+			"1"
+			{
+				"name"		"Linux Libertine G"
+				"tall"		"24"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"300"
+				"antialias"		"1"
+			}
+		}	
+		StickyFont
+		{
+			"1"
+			{
+				"name"		"Sound FX"
+				"tall"		"18"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"300"
+				"antialias"		"1"
+			}
+		}
+		//end
+		
 		MenuSmallestFont
 		{
 			"1"
 			{
-				"name"			"Arial Black"
+				"name"			"Ubuntu Condensed"
 				"tall"			"8"
 				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
@@ -1813,7 +1846,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -1826,7 +1859,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1838,7 +1871,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1851,7 +1884,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -1864,7 +1897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -1878,7 +1911,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -1891,7 +1924,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1901,7 +1934,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -1911,7 +1944,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -1921,7 +1954,7 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Ubuntu Medium"
 				"tall"		"22"
 				"weight"	"900"
 			}
@@ -1930,7 +1963,7 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Ubuntu Medium"
 				"tall"		"18"
 				"weight"	"900"
 			}
@@ -1939,7 +1972,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -1948,7 +1981,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -1957,7 +1990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1967,7 +2000,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -1977,7 +2010,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -1987,7 +2020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -1998,7 +2031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2009,7 +2042,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2020,7 +2053,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Ubuntu Medium"
 				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
@@ -2030,7 +2063,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -2041,7 +2074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2053,7 +2086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2062,7 +2095,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2071,7 +2104,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2084,7 +2117,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2095,7 +2128,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2106,7 +2139,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2117,7 +2150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2128,7 +2161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2139,7 +2172,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2151,7 +2184,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2162,7 +2195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2175,7 +2208,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2191,7 +2224,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2199,7 +2232,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2207,7 +2240,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2216,7 +2249,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2225,7 +2258,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2237,7 +2270,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2248,7 +2281,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2256,7 +2289,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2264,7 +2297,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2273,7 +2306,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2282,7 +2315,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Ubuntu"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -2291,7 +2324,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Ubuntu Condensed"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -2301,7 +2334,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2312,7 +2345,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2323,7 +2356,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Ubuntu"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2336,7 +2369,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2347,7 +2380,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2364,7 +2397,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2375,7 +2408,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Ubuntu Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2387,7 +2420,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Ubuntu Condensed"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2404,6 +2437,20 @@ Scheme
 	// describes all the border types
 	Borders
 	{
+	//begin custom border
+		ReserveBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+		//	"image"					"loadout_rect"
+			"image"					"backpack_rect"
+			"src_corner_height"		"8"				// pixels inside the image
+			"src_corner_width"		"8"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+	//end custom
 		NoBorder
 		{
 			"inset" "0 0 0 0"
@@ -4301,6 +4348,33 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}			
+		}
+		"7" //used as TF2 Build sub
+		{
+			"font" "resource/Ubuntu-M.ttf"
+			"name" "Ubuntu Medium"
+		}
+		
+		"8" //used as TF2 Secondary sub
+		{
+			"font" "resource/Ubuntu-C.ttf"
+			"name" "Ubuntu Condensed"
+		}
+		
+		"9" //used as in place of TF2 font (and defaults for now)
+		{
+			"font" "resource/Ubuntu-R.ttf"
+			"name" "Ubuntu"
+		}
+		"10" //used for ammo Labels
+		{
+			"font" "resource/LibertineG.ttf"
+			"name" "Linux Libertine G"
+		}		
+		"11" // icon for demo sticky
+		{
+			"font" "resource/soundfx.ttf"
+			"name" "Sound FX"
+		}
 	}
 }
