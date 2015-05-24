@@ -2442,13 +2442,72 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
+			"color"			"White"
 		//	"image"					"loadout_rect"
-			"image"					"backpack_rect"
-			"src_corner_height"		"8"				// pixels inside the image
-			"src_corner_width"		"8"
+			"image"					"../hud/color_panel_browner"
+			"src_corner_height"		"16"				// pixels inside the image
+			"src_corner_width"		"16"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
+		}
+		InverseTeamMenuBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "25 20 20 250"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "25 20 20 250"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "25 20 20 250"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "25 20 20 250"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "25 20 20 250"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "25 20 20 250"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "25 20 20 250"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "25 20 20 250"
+					"offset" "0 0"
+				}
+			}
 		}
 	//end custom
 		NoBorder

@@ -207,6 +207,10 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 
+//	Animate	PlayerStatusHealthValue			Fgcolor		"0 120 250 255"		Linear 0.0 0.275 //blue oheal
+	Animate	PlayerStatusHealthValue			Fgcolor		"0 235 100 255"		Linear 0.0 0.275 //green oheal
+	Animate	PlayerStatusHealthValue			Fgcolor		"TanLight"				Linear 0.25 0.95
+	
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
 
@@ -214,12 +218,17 @@ event HudHealthBonusPulse
 event HudHealthBonusPulseLoop
 {
 	RunEvent HudHealthBonusPulse 0.0
+	
+	StopPanelAnimations PlayerStatusHealthValue			0.0	
 }
 
 event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	
+	StopPanelAnimations PlayerStatusHealthValue			0.0
+	Animate	PlayerStatusHealthValue				FgColor		"255 255 255 255" 	Linear 0.0 0.0	
 }
 
 //===========================================
@@ -227,8 +236,11 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
+//	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075 //commented out so theres no cross at low health
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	
+	Animate	PlayerStatusHealthValue			Fgcolor		"220 0 0 255"		Linear 0.0 0.275
+	Animate	PlayerStatusHealthValue			Fgcolor		"TanLight"				Linear 0.2 0.275
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -237,12 +249,17 @@ event HudHealthDyingPulse
 event HudHealthDyingPulseLoop
 {
 	RunEvent HudHealthDyingPulse 0.0
+	
+	StopPanelAnimations PlayerStatusHealthValue			0.0
 }
 
 event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
+	
+	StopPanelAnimations PlayerStatusHealthValue			0.0
+	Animate	PlayerStatusHealthValue				FgColor		"255 255 255 255" 	Linear 0.0 0.0
 }
 
 //===========================================

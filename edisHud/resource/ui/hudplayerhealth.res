@@ -44,8 +44,8 @@
 		"enabled"		"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"fillcolor"		"25 20 20 250"
-		"border"		"TeamMenuBorder"
+		"fillcolor"		"46 43 42 250"
+		"border"		"InverseTeamMenuBorder"
 	}	
 	"PlayerStatusHealthImageBG"
 	{
@@ -65,14 +65,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"100"	[$WIN32]
+		"xpos"			"120"	[$WIN32]
 		"xpos"			"83"	[$X360]
-		"ypos"			"10"	[$WIN32]
+		"ypos"			"21"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"18"	[$WIN32]
+		"wide"			"14"	[$WIN32]
 		"wide"			"35"	[$X360]
-		"tall"			"18"	[$WIN32]
+		"tall"			"14"	[$WIN32]
 		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
@@ -99,7 +99,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"14"
+		"xpos"			"6"
 		"ypos"			"0"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
@@ -108,7 +108,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"	
 		"font"			"HudFontGiantBold"
 		//"fgcolor"		"TanDark"
 	}	
@@ -285,11 +285,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"100"
-		"ypos"			"23"
+		"xpos"			"96"
+		"ypos"			"37"
 		"zpos"			"7"
-		"wide"			"24"
-		"tall"			"24"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	

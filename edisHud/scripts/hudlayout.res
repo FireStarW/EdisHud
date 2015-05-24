@@ -194,10 +194,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"ypos"					"r152"
+		"xpos"					"90"
+		"ypos"					"r240"
 		"wide"					"116"
-		"tall"  				"180"
+		"tall"  				"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
