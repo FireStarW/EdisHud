@@ -13,17 +13,33 @@
 		"visible"		"1"
 		"enabled"		"1"		
 	}
+	"ClassBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ClassBG"
+		"xpos"			"-10"
+		"ypos"			"r70"
+		"zpos"			"-4"
+		"wide"			"100"
+		"tall"			"40"
+		"visible"		"0"
+		"enabled"		"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"25 20 20 250"
+		"border"		"TeamMenuBorder"
+	}
 	"PlayerStatusClassImage"
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
-		"ypos"			"r88"	[$WIN32]
+		"xpos"			"18"	[$WIN32]
+		"ypos"			"r86"	[$WIN32]
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
 		"wide"			"0" //75
-		"tall"			"75"
+		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
@@ -34,12 +50,12 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
 		"xpos"			"3"		[$WIN32]
-		"ypos"			"r67"	[$WIN32]
+		"ypos"			"r30"	[$WIN32]
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
@@ -106,11 +122,11 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
+		"xpos"			"4"	[$WIN32]
+		"ypos"			"r220"	[$WIN32]
 		"zpos"			"2"		
-		"wide"			"0"
-		"tall"			"200"
+		"wide"			"0" 
+		"tall"			"190"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -127,7 +143,7 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "172"
+			"angles_y" "200"
 			"angles_z" "0"
 			"origin_x" "200"
 			"origin_y" "0"

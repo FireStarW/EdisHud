@@ -1821,7 +1821,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sound FX"
-				"tall"		"18"
+				"tall"		"22"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
 				"antialias"		"1"

@@ -12,7 +12,7 @@
 		"tall"			"6"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0" //EZ PZ fix
 		"enabled"		"1"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
