@@ -5,11 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"x_offset"		"40"
-		"xpos"			"r174"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r124"	[$X360]
+		"xpos"			"r90"	
+		"ypos"			"r125"	
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -18,27 +15,27 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
+		"zpos"			"-4"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"46 43 42 250"
+		"border"		"InverseTeamMenuBorder"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"25"
+		"xpos"					"26"
+		"ypos"					"-1"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -51,7 +48,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"HudFontSmallest"
+		"fgcolor_override"				"LessMintGreen"
 	}
 
 	"ItemEffectMeter"
@@ -59,11 +57,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"45"
-		"ypos"					"23"
+		"xpos"					"5"
+		"ypos"					"12"
 		"zpos"					"2"
-		"wide"					"30"
-		"tall"					"5"				
+		"wide"					"82"
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -71,5 +69,21 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}	
+	"MarkLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"MarkLabel"
+		"font"			"HudFontSmall"
+		"xpos"			"0"
+		"ypos"			"6"
+		"zpos"			"8"
+		"wide"			"92"
+		"tall"			"27"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"fgcolor_override"				"DarkGreen"
+		"labelText"		"' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ""	
+	}	
 }

@@ -5,40 +5,39 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-//		"x_offset"		"40"
-		"xpos"			"r258"	[$WIN32]
-		"ypos"			"r57"	[$WIN32]
+		"xpos"					"r90"	[$WIN32]
+		"ypos"					"r230"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
+		"wide"			"200"
+		"tall"			"480"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"0"
-		"zpos"			"0"
+		"xpos"			"0"
+		"ypos"			"9"
+		"zpos"			"-4"
 		"wide"			"100"
-		"tall"			"50"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz3_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"34 35 31 250"
+		"border"		"InverseTeamMenuBorder"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"40"
-		"ypos"					"25"
+		"xpos"					"26"
+		"ypos"					"9"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -47,11 +46,12 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_CLEAVER"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"HudFontSmallest"
+		"fgcolor_override"				"LessMintGreen"
 	}
 
 	"ItemEffectMeter"
@@ -59,11 +59,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
-		"ypos"					"23"
+		"xpos"					"5"
+		"ypos"					"22"
 		"zpos"					"2"
-		"wide"					"30"
-		"tall"					"5"				
+		"wide"					"82"
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

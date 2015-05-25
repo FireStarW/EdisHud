@@ -35,6 +35,21 @@
 		"fillcolor"		"34 35 31 250"
 		"border"		"InverseTeamMenuBorder"
 	}	
+	"PowerLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"PowerLabel"
+		"font"			"HudFontSmallest"
+		"xpos"			"15"
+		"ypos"			"2"
+		"zpos"			"8"
+		"wide"			"60"
+		"tall"			"27"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"		
+		"labelText"		"Power"	
+	}
 	"Mark1"
 	{
 		"ControlName"	"ImagePanel"

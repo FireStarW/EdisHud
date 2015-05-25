@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"94"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
+		"xpos"			"r90"	[$WIN32]
+		"ypos"			"r30"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -15,27 +15,28 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
+		"fieldName"		"MeterBG"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"76"
-		"tall"			"44"
+		"zpos"			"-4"
+		"wide"			"100"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"46 43 42 250"
+		"border"		"InverseTeamMenuBorder"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"3"
+		"ypos"					"2"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -48,7 +49,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"FontStoreOriginalPrice"
 	}
 
 	"ItemEffectMeter"
@@ -56,8 +57,8 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"6"				
@@ -74,8 +75,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"10"
+		"xpos"					"28"
+		"ypos"					"-4"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -88,5 +89,35 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
+	}
+		"KillstreakIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillstreakIconIcon"
+		"xpos"			"74"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"				"1"
+	//	"image"			"../hud/leaderboard_streak"
+		"image"			"../hud/leaderboard_duck"
+		"scaleImage"	"1"
+	}
+		"KillStreakLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillStreakLine"
+		"xpos"			"13"
+		"ypos"			"13"
+		"zpos"			"2"
+		"wide"			"21"
+		"tall"			"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"DarkGreen"
 	}
 }
