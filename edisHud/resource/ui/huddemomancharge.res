@@ -49,6 +49,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"		
 		"labelText"		"Power"	
+		"fgcolor_override"				"WhiteGreen"
 	}
 	"Mark1"
 	{

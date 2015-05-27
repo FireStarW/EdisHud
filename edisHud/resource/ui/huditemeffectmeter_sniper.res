@@ -76,7 +76,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"26"
-		"ypos"					"-4"
+		"ypos"					"-3"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -93,7 +93,7 @@
 	"MeterIcon"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"KillstreakIconIcon"
+		"fieldName"		"MeterIcon"
 		"xpos"			"74"
 		"ypos"			"3"
 		"zpos"			"2"

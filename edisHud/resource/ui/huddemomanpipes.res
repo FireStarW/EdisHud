@@ -36,6 +36,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontSmallest"
+		"fgcolor_override"				"MintGreen"
 	}
 
 	"ChargeMeter"

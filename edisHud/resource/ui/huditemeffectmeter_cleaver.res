@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r90"
-		"ypos"			"r125"
+		"ypos"			"r125" //r122 16:9
 		"wide"			"200"
 		"tall"			"480"
 		"MeterFG"		"White"
@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"fgcolor_override"				"DarkGreen"
-		"labelText"		"' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ""	
+		"labelText"		"' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '"	
 	}	
 
 }

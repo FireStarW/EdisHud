@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r90"	
-		"ypos"			"r146"	
+		"ypos"			"r146"	//r144 16:9
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -15,24 +15,8 @@
 	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"6"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"
-	}
-	"MeterBG"
-	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"MeterBG"
+		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-4"

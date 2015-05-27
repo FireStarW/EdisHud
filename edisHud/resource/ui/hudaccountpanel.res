@@ -33,7 +33,7 @@
 		"ControlName"	"CIconPanel"
 		"fieldName"		"MetalIcon"
 		"xpos"			"124"
-		"ypos"			"14"
+		"ypos"			"13"
 		"zpos"			"1"
 		"wide"			"14"
 		"tall"			"14"

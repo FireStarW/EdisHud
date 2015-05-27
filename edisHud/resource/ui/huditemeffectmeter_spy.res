@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"r90"	
-		"ypos"			"r105"	
+		"ypos"			"r104"	
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -27,7 +27,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"fillcolor"		"52 58 52 250"
-		"border"		"InverseTeamMenuBorder"
+		"border"		"TeamMenuBorder"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -76,7 +76,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"26"
-		"ypos"					"-4"
+		"ypos"					"-3"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -93,7 +93,7 @@
 	"MeterIcon"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"KillstreakIconIcon"
+		"fieldName"		"MeterIcon"
 		"xpos"			"74"
 		"ypos"			"2"
 		"zpos"			"2"

@@ -24,6 +24,10 @@ Scheme
 		"WhiteGreen"			"217 255 207 255"
 		"EdisGreen"			"108 127 103 255"
 		"LessMintGreen"			"163 191 155 255"
+		"EdisBlueLight"		"4 30 84 250"
+		"EdisBlueDark"		"9 29 76 250"
+		"EdisRedLight"		"95 5 22 250"
+		"EdisRedDark"		"89 1 20 250"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

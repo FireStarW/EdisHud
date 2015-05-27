@@ -71,5 +71,20 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+	}	
+	"SapperIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"SapperIcon"
+		"xpos"			"74" 
+		"ypos"			"8"
+		"zpos"			"2"
+		"wide"			"14"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"				"1"
+		"drawcolor" 	"200 200 200"
+		"image"			"../hud/hud_obj_status_sapper"
+		"scaleImage"	"1"
+	}	
 }

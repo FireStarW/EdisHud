@@ -1,4 +1,5 @@
 EdisHud by FireStarW
-(May 25 2015)
+(May 27 2015)
 
+Seems to be 4:3 and 16:10 by default
 Huds.tf Contest entry

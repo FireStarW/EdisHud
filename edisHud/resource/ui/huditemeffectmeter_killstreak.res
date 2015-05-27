@@ -50,6 +50,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"FontStoreOriginalPrice"
+		"fgcolor_override"				"WhiteGreen"
 	}
 
 	"ItemEffectMeter"
@@ -93,7 +94,7 @@
 		"KillstreakIcon"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"KillstreakIconIcon"
+		"fieldName"		"KillstreakIcon"
 		"xpos"			"74"
 		"ypos"			"2"
 		"zpos"			"2"

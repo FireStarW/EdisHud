@@ -46,7 +46,22 @@
 		"pinCorner"		"0"
 		"fillcolor"		"46 43 42 250"
 		"border"		"InverseTeamMenuBorder"
-	}	
+	}
+	"HealthImageLine"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthImageLine"
+		"xpos"			"5"
+		"ypos"			"54"
+		"zpos"			"-4"
+		"wide"			"11"
+		"tall"			"1"
+		"visible"		"1"
+		"enabled"		"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"DarkGreen"
+	}			
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"

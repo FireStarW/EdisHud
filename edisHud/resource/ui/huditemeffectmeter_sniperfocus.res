@@ -84,6 +84,6 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"fgcolor_override"				"DarkGreen"
-		"labelText"		"' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ""	
+		"labelText"		"' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '"		
 	}	
 }
