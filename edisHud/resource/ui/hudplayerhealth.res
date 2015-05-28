@@ -22,11 +22,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"2" //c-100 for by crosshair
-		"ypos"			"38"  //20 for by crosshair
+		"xpos"			"c-100" //c-100 for by crosshair
+		"ypos"			"20"  //20 for by crosshair
 		"zpos"			"4"
-		"wide"			"17" //30 x 30 for by crosshair
-		"tall"			"17"
+		"wide"			"30" //30 x 30 for by crosshair
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -40,28 +40,13 @@
 		"zpos"			"-4"
 		"wide"			"100"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"fillcolor"		"46 43 42 250"
 		"border"		"InverseTeamMenuBorder"
-	}
-	"HealthImageLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HealthImageLine"
-		"xpos"			"5"
-		"ypos"			"54"
-		"zpos"			"-4"
-		"wide"			"11"
-		"tall"			"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"fillcolor"		"DarkGreen"
-	}			
+	}	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -80,14 +65,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"120"	[$WIN32]
+		"xpos"			"c-100"	[$WIN32]
 		"xpos"			"83"	[$X360]
-		"ypos"			"21"	[$WIN32]
+		"ypos"			"20"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"14"	[$WIN32]
+		"wide"			"30"	[$WIN32]
 		"wide"			"35"	[$X360]
-		"tall"			"14"	[$WIN32]
+		"tall"			"30"	[$WIN32]
 		"tall"			"35"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
@@ -148,8 +133,8 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "BleedIconAnchor"
-		"xpos" "0" //-14 first over +
-		"ypos" "38"
+		"xpos" "-29"
+		"ypos" "0"
 		"wide" "20"
 		"tall" "20"
 		"visible" "1"
@@ -159,8 +144,8 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "VaccinatorIconAnchor"
-		"xpos" "3" 
-		"ypos" "37"
+		"xpos" "-29" 
+		"ypos" "0"
 		"wide" "20"
 		"tall" "20"
 		"visible" "1"
@@ -170,8 +155,8 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "BannerIconAnchor"
-		"xpos" "2" 
-		"ypos" "37"
+		"xpos" "-29" 
+		"ypos" "0"
 		"wide" "20"
 		"tall" "20"
 		"visible" "1"
@@ -181,8 +166,8 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "ParachuteIconAnchor"
-		"xpos" "2" 
-		"ypos" "37"
+		"xpos" "-29" 
+		"ypos" "0"
 		"wide" "20"
 		"tall" "20"
 		"visible" "1"
@@ -192,8 +177,8 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "MannIconAnchor"
-		"xpos" "5" 
-		"ypos" "34"
+		"xpos" "-29" 
+		"ypos" "0"
 		"wide" "20"
 		"tall" "20"
 		"visible" "1"
@@ -215,8 +200,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos_"	"0"		
 		"ypos"	"0"
-		"wide"	"15"
-		"tall"	"15"
+		"wide"	"20"
+		"tall"	"20"
 
 	}
 	"PlayerStatusHookBleedImage"
@@ -235,8 +220,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos_"	"0"		
 		"ypos"	"0"
-		"wide"	"15"
-		"tall"	"15"
+		"wide"	"20"
+		"tall"	"20"
 	}	
 	"PlayerStatusMilkImage"
 	{
@@ -255,8 +240,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos_"	"0"		
 		"ypos"	"0"
-		"wide"	"15"
-		"tall"	"15"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -274,8 +259,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos_"	"0"		
 		"ypos"	"0"
-		"wide"	"15"
-		"tall"	"15"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -293,15 +278,15 @@
 		"pin_to_sibling_corner" "1"
 		"xpos_"	"0"		
 		"ypos"	"0"
-		"wide"	"15"
-		"tall"	"15"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatus_WheelOfDoom"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_WheelOfDoom"
-		"xpos"			"96"
-		"ypos"			"37"
+		"xpos"			"c-100"
+		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"18"
 		"tall"			"18"
@@ -329,8 +314,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{
@@ -348,8 +333,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatus_MedicUberFireResistImage"
 	{
@@ -367,8 +352,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
@@ -386,8 +371,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{
@@ -405,8 +390,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatus_MedicSmallFireResistImage"
 	{
@@ -424,8 +409,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 
 	"PlayerStatus_SoldierOffenseBuff"
@@ -444,8 +429,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatus_SoldierDefenseBuff"
 	{
@@ -463,8 +448,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatus_SoldierHealOnHitBuff"
 	{
@@ -482,8 +467,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	"PlayerStatus_Parachute"
 	{
@@ -501,8 +486,8 @@
 		"pin_to_sibling_corner" "1"
 		"xpos"	"0"		
 		"ypos"	"0"
-		"wide"	"18"
-		"tall"	"18"
+		"wide"	"20"
+		"tall"	"20"
 	}
 	// beta mannpower stuffs
 	"PlayerStatus_RuneStrength"

@@ -236,7 +236,7 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-//	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075 //commented out so theres no cross at low health
+	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075 
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	
 	Animate	PlayerStatusHealthValue			Fgcolor		"220 0 0 255"		Linear 0.0 0.275

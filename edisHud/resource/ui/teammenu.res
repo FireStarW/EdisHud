@@ -440,16 +440,11 @@
 		"command"		"jointeam auto"
 		"font"			"HudFontMedium"
 		
-	//	"armedFgColor_override" 		"255 255 255 255"	
-	//	"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"22 5 22 250" 
 		"armedbgcolor_override"			"26 1 20 250"
-
-		"depressedFGColor_override"		"white"
 		"depressedbgcolor_override"		"108 123 139 255"
 		"border_default"		"TeamMenuBorder"
 		"border_armed"		"InverseTeamMenuBorder"
-		
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
 	}	
@@ -578,6 +573,7 @@
 		"textAlignment"	"south"
 		"command"		"jointeam spectate"
 		"font"			"HudFontSmallest"
+		"defaultfgcolor_override"		"WhiteGreen"
 		"defaultbgcolor_override"		"25 20 25 250" 
 		"armedbgcolor_override"			"25 20 25 250"
 		"depressedbgcolor_override"		"108 123 139 255"
@@ -1117,8 +1113,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabel"
-		"xpos"			"c-150"
-		"ypos"			"100"
+		"xpos"			"c-50"
+		"ypos"			"c-100"
 		"zpos"			"6"
 		"wide"			"105"
 		"tall"			"35"
@@ -1143,7 +1139,7 @@
 		"ypos"			"101"
 		"zpos"			"6"
 		"wide"			"105"
-		"tall"			"35"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
