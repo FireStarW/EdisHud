@@ -31,7 +31,7 @@
 		"pinCorner"		"0"
 		"fillcolor"		"25 20 20 250"
 		"border"		"TeamMenuBorder"
-	}
+	}	
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"

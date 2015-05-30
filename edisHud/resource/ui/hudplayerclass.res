@@ -22,7 +22,7 @@
 		"zpos"			"-4"
 		"wide"			"100"
 		"tall"			"40"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -38,7 +38,7 @@
 		"xpos"			"57"	[$X360]
 		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
-		"wide"			"55" //75
+		"wide"			"0" //55
 		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
@@ -125,7 +125,7 @@
 		"xpos"			"0"	
 		"ypos"			"r210"	
 		"zpos"			"2"		
-		"wide"			"100" 
+		"wide"			"0" 
 		"tall"			"180"
 		"autoResize"	"0"
 		"pinCorner"		"0"

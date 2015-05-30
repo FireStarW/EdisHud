@@ -19,11 +19,13 @@
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"border" 		"InverseTeamMenuBorder"
+		
+		"src_corner_height"		"15"				// pixels inside the image
+		"src_corner_width"		"15"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	"TargetIDBG_Spec_Blue"
 	{
@@ -39,12 +41,13 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
+		"border" 		"InverseTeamMenuBorder"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"15"				// pixels inside the image
+		"src_corner_width"		"15"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
@@ -60,12 +63,13 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
+		"border" 		"InverseTeamMenuBorder"
 		
-		"src_corner_height"		"23"				// pixels inside the image
-		"src_corner_width"		"23"
+		"src_corner_height"		"15"				// pixels inside the image
+		"src_corner_width"		"15"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 	}
 	
 	"TargetNameLabel"
@@ -91,7 +95,8 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"FontStoreOriginalPrice"
+		"font"			"HudFontSmallest"
+		"fgcolor_override"		"WhiteGreen"
 		"xpos"			"8"
 		"ypos"			"17"	[$WIN32]
 		"ypos"			"22"	[$X360]
@@ -121,33 +126,33 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"White"
 	}	
 	
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
+		"xpos"			"38"
 		"ypos"			"20"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
+		"image"			"../hud/hud_obj_status_ammo_64"
 		"scaleImage"	"1"
 	}
-	
+
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"10"
+		"xpos"			"-4"
 		"ypos"			"20"
 		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
+		"wide"			"6"
+		"tall"			"6"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_streak"
@@ -175,13 +180,30 @@
 			"zpos"			"0"
 			"wide"			"10"
 			"tall"			"36"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"icon"			"obj_status_alert_background_tall_nocolor"
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
+			"border"		"TeamMenuBorder"
+			"fgcolor_override" "Black"
 		}
-		
+		"MovableBG"
+		{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MovableBG"
+		"xpos"			"4"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"44"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"25 20 20 250"
+		"border"		"TeamMenuBorder"
+		}
 		"MoveableIcon"
 		{
 			"ControlName"	"CIconPanel"

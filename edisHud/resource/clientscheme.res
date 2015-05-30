@@ -446,11 +446,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Ubuntu"
-				"tall"		"12"
-				"weight"	"900"
+				"name"		"Ubuntu Medium"
+				"tall"		"11"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
@@ -582,11 +582,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Ubuntu"
-				"tall"		"12"
-				"weight"	"0"
+				"name"		"Ubuntu Medium"
+				"tall"		"6"
+				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"antialias"		"1"
 			}
 			"2"
 			{

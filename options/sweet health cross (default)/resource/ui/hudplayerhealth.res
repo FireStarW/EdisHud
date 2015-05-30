@@ -24,7 +24,7 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"c-100" //c-100 for by crosshair
 		"ypos"			"20"  //20 for by crosshair
-		"zpos"			"4"
+		"zpos"			"0"
 		"wide"			"30" //30 x 30 for by crosshair
 		"tall"			"30"
 		"visible"		"1"

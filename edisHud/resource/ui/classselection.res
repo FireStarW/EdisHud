@@ -1019,15 +1019,16 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
-		"xpos"			"16"
-		"ypos"			"r95"
+		"xpos"			"20"
+		"ypos"			"r32"
 		"zpos"			"2"
-		"wide"			"45"
-		"tall"			"0"
+		"wide"			"38"
+		"tall"			"2"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
+		"drawcolor"		"EdisGreen"
 		"image"			"../hud/color_panel_clear"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_clear"
@@ -1038,21 +1039,6 @@
 				
 		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"5"	
-	}
-	"LocalPlayerLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LocalPlayerLine"
-		"xpos"			"20"
-		"ypos"			"r32"
-		"zpos"			"4"
-		"wide"			"38"
-		"tall"			"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"fillcolor"		"EdisGreen"
 	}
 	"countImage0" [$WIN32]
 	{
