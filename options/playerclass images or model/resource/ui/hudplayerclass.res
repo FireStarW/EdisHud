@@ -54,9 +54,9 @@
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
-		"wide"			"30"
+		"wide"			"0"
 		"tall"			"30"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
 		"scaleImage"	"1"	
