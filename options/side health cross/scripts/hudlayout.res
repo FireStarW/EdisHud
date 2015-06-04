@@ -216,12 +216,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
-		"wide"		"500"
-		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
+		"ypos"		"0"	[$WIN32]
+		"wide"		"f0"
+		"tall"		"480"
 	}
 
 	CMainTargetID

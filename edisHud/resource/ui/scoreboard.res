@@ -418,29 +418,33 @@
 		"ypos"			"100"
 		"zpos"			"22" //21 in non 4:3
 		"wide"			"40"
-		"tall"			"358"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"fillcolor"		"DarkGreen"
+	//	"fillcolor"		"DarkGreen"
 	//	"border"		"TeamMenuBorder"
+			"image"		"loadout_header"
+			"scaleImage"	"1"
+	
 	}
-	"BlueListWhiteBlockBG" //16:9 possible fix
+	"BlueListWhiteBlock2"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueListWhiteBlockBG"
-		"xpos"			"264"
+		"fieldName"		"BlueListWhiteBlock2"
+		"xpos"			"r309"
 		"ypos"			"100"
-		"zpos"			"22"
-		"wide"			"320"
-		"tall"			"358"
-		"visible"		"0"
+		"zpos"			"22" //21 in non 4:3
+		"wide"			"40"
+		"tall"			"480"
+		"visible"		"1"
 		"enabled"		"1"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"fillcolor"		"20 20 20 255"
-		"border"		"DarkComboBoxBorder"
+		"image"		"loadout_header"
+		"scaleImage"	"1"
+	
 	}
 	"BluePlayersBG"
 	{

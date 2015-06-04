@@ -110,7 +110,7 @@
 		"zpos"			"-1"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1" //on only with default cross
+		"visible"		"0" //on only with default cross
 		"enabled"		"1"
 		"image"			"../hud/ico_spy"
 		"scaleImage"	"1"			
