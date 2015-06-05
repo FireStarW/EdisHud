@@ -46,6 +46,8 @@
 		"pinCorner"		"0"
 		"fillcolor"		"46 43 42 250"
 		"border"		"InverseTeamMenuBorder"
+
+		"visible_minmode"		"0"
 	}
 	"HealthImageLine"
 	{
@@ -109,6 +111,8 @@
 		"pinCorner"		"0"
 		"fillcolor"		"25 20 20 250"
 		"border"		"TeamMenuBorder"
+
+		"visible_minmode"		"0"
 	}
 	"PlayerStatusHealthValue"
 	{

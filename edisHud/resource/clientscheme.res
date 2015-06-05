@@ -1831,6 +1831,34 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		
+		"HudFontGiantBoldBlur"
+		{
+			"1"
+			{
+				"name"		"Ubuntu Medium"
+				"tall"		"44"
+				"tall_lodef"	"52"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"blur" 		"2"
+			}
+		}
+		
+		"DamageFontGlow"
+		{
+			"1"
+			{
+				"name"		"Ubuntu"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"blur" 		"2"
+			}
+		}		
+		
 		//end
 		
 		MenuSmallestFont

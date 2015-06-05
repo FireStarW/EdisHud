@@ -31,6 +31,8 @@
 		"pinCorner"		"0"
 		"fillcolor"		"25 20 20 250"
 		"border"		"TeamMenuBorder"
+		
+		"visible_minmode"		"0"
 	}	
 	"HudWeaponLowAmmoImage"
 	{
@@ -67,10 +69,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontGiantBoldBlur"
 		"fgcolor"		"Black"
-		"xpos"			"r73"
-		"ypos"			"-3"
+		"xpos"			"r74"
+		"ypos"			"-4"
 		"zpos"			"5"
 		"wide"			"55"
 		"tall"			"40"
@@ -131,6 +133,8 @@
 		"labelText"		"%AmmoInReserve%"
 		"border"		"ReserveBorder"	
 	//"border"		"LoadoutItemPopupBorder" //alternatitive for entire hud?	
+	
+	"border_minmode"		""	
 	}		
 	"AmmoInReserveShadow" //used as "R" label
 	{
@@ -170,17 +174,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontGiantBoldBlur"
 		"fgcolor"		"Black"
-		"xpos"			"r87"
-		"ypos"			"-3"
+		"xpos"			"r88"
+		"ypos"			"-4"
 		"zpos"			"5"
 		"wide"			"84"
 		"tall"			"40"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"center"		
-		"labelText"		""
+		"labelText"		"%Ammo%"
 		
 	}									
 }

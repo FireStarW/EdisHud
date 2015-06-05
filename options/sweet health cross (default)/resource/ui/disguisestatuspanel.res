@@ -43,6 +43,8 @@
 		"enabled"		"1"
 		"fillcolor"		"25 20 20 250"
 		"border"		"DisguiseBorder"
+		
+		"visible_minmode"		"0"	
 	}
 
 	"DisguiseNameLabel"

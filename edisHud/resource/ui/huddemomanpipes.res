@@ -72,6 +72,8 @@
 		"pinCorner"		"0"
 		"fillcolor"		"25 20 20 250"
 		"border"		"TeamMenuBorder"
+		
+		"visible_minmode"		"0"
 	}	
 	"PipesPresentPanel"
 	{

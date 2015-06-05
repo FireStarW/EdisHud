@@ -34,6 +34,8 @@
 	//	"fillcolor"		"46 43 42 250"
 		"fillcolor"		"34 35 31 250"
 		"border"		"InverseTeamMenuBorder"
+		
+		"visible_minmode"		"0"
 	}	
 	"PowerLabel"
 	{

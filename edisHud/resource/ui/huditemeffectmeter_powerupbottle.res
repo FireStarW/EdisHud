@@ -28,6 +28,8 @@
 		"pinCorner"		"0"
 		"fillcolor"		"25 20 20 250"
 		"border"		"InverseTeamMenuBorder"
+		
+		"visible_minmode"		"0"
 	}
 	
 	"ItemEffectIcon"

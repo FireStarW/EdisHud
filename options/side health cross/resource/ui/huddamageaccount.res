@@ -29,4 +29,20 @@
 		"textAlignment"	"center"
 		"fgcolor"		"255 255 0 255"	
 	}
+	"DamageLabelOutline"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageLabelOutline"
+		"font"			"DamageFontGlow"
+		"xpos"			"80"
+		"ypos"			"c-30"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"100"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"fgcolor"		"0 0 0 255"	
+	}
 }

@@ -29,6 +29,8 @@
 		"pinCorner"		"0"
 		"fillcolor"		"46 43 42 250"
 		"border"		"InverseTeamMenuBorder"
+		
+		"visible_minmode"		"0"
 	}
 	
 	"ItemEffectMeterLabel"

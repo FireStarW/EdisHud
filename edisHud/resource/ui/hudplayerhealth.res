@@ -46,6 +46,8 @@
 		"pinCorner"		"0"
 		"fillcolor"		"46 43 42 250"
 		"border"		"InverseTeamMenuBorder"
+		
+		"visible_minmode"		"0"
 	}	
 	"PlayerStatusHealthImageBG"
 	{
@@ -94,6 +96,8 @@
 		"pinCorner"		"0"
 		"fillcolor"		"25 20 20 250"
 		"border"		"TeamMenuBorder"
+		
+		"visible_minmode"		"0"
 	}
 	"PlayerStatusHealthValue"
 	{
@@ -116,17 +120,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"15"
-		"ypos"			"2"	[$WIN32]
-		"ypos"			"55"	[$X360]
-		"zpos"			"5"
+		"xpos"			"6"
+		"ypos"			"0"	
+		"zpos"			"4"
 		"wide"			"80"
 		"tall"			"32"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"west"	
-		"font"			"HudFontGiantBold"
+		"textAlignment"	"center"	
+		"font"			"HudFontGiantBoldBlur"
 		"fgcolor"		"Black"
 	}	
 	"BleedIconAnchor"
