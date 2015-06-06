@@ -548,7 +548,7 @@
 		"tall"	 "480"
 		"zpos" 	"2"
 		"xpos"			"130"
-		"ypos"			"r61"
+		"ypos"			"r253"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"

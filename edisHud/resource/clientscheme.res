@@ -1858,7 +1858,18 @@ Scheme
 				"blur" 		"2"
 			}
 		}		
-		
+		"HudFontMediumSmallBoldBlur"
+		{
+			"1"
+			{
+				"name"		"Ubuntu Medium"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"blur" 		"2"
+			}
+		}
 		//end
 		
 		MenuSmallestFont

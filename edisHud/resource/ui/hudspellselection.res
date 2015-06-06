@@ -2,41 +2,43 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"130"
+		"xpos"			"r90"
 
 		"if_killstreak_visible"
 		{
-			"xpos"			"160"
+			"xpos"			"r90"
 		}
 	}
 			
 	"ItemEffectMeterBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"0"
 		"ypos"			"10"
-		"wide"			"80"
-		"tall"			"40"
+		"wide"			"100"
+		"tall"			"22"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/ammo_blue_bg"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/ammo_red_bg"
-		"teambg_3"		"../hud/ammo_blue_bg"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"25 20 20 250"
+		"border"		"TeamMenuBorder"
+		
+		"visible_minmode"		"0"
 	}
 	
 	"Spellbook"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Spellbook"
-		"xpos"			"10"
-		"ypos"			"0"
+		"xpos"			"74"
+		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"64"
-		"tall"			"56"
+		"wide"			"14"
+		"tall"			"14"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"spellbook_book"
 		"scaleImage"	"1"		
 	}
@@ -45,11 +47,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
-		"xpos"			"16"
-		"ypos"			"15"
+		"xpos"			"8"
+		"ypos"			"12"
 		"zpos"			"7"
-		"wide"			"24"
-		"tall"			"24"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -66,10 +68,10 @@
 		"textAlignment" "west"
 		"xpos"			"18"
 		"ypos"			"48"
-		"wide"			"100"
+		"wide"			"0"
 		"tall"			"10"
 		"fgcolor"		"tanlight"
-		"visible"		"1"
+		"visible"		"0"
 	}
 	
 	"SpellText"
@@ -91,11 +93,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountTextShadow"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFontMediumSmallBoldBlur"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"47"
-		"ypos"			"18"
+		"xpos"			"34"
+		"ypos"			"11"
 		"wide"			"20"
 		"tall"			"20"
 		"fgcolor"		"0 0 0 255"
@@ -105,11 +107,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumBigBold"
+		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%counttext%"
 		"textAlignment" "center"
-		"xpos"			"46"
-		"ypos"			"17"
+		"xpos"			"34"
+		"ypos"			"11"
 		"wide"			"20"
 		"tall"			"19"
 		"fgcolor"		"tanlight"

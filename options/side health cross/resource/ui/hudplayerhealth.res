@@ -119,7 +119,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"6"
-		"ypos"			"0"	[$WIN32]
+		"ypos"			"1"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"80"
@@ -135,19 +135,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"15"
-		"ypos"			"2"	[$WIN32]
-		"ypos"			"55"	[$X360]
-		"zpos"			"5"
+		"xpos"			"6"
+		"ypos"			"1"	
+		"zpos"			"4"
 		"wide"			"80"
 		"tall"			"32"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"west"	
-		"font"			"HudFontGiantBold"
+		"textAlignment"	"center"	
+		"font"			"HudFontGiantBoldBlur"
 		"fgcolor"		"Black"
-	}	
+	}		
 	"BleedIconAnchor"
 	{
 		"ControlName" "EditablePanel"
